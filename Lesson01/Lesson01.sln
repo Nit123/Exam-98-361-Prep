@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while_Statement", "while_St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dowhile_Statement", "dowhile_Statement\dowhile_Statement.csproj", "{BBCE7C82-B85A-48CC-B693-E3F1FEE344A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for_Statement", "for_Statement\for_Statement.csproj", "{F4724C84-CA6A-4608-B763-23657DA6E7A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{BBCE7C82-B85A-48CC-B693-E3F1FEE344A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCE7C82-B85A-48CC-B693-E3F1FEE344A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCE7C82-B85A-48CC-B693-E3F1FEE344A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4724C84-CA6A-4608-B763-23657DA6E7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4724C84-CA6A-4608-B763-23657DA6E7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4724C84-CA6A-4608-B763-23657DA6E7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4724C84-CA6A-4608-B763-23657DA6E7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
