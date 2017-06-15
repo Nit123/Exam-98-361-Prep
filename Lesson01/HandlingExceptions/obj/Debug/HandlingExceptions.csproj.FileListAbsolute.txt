@@ -1,0 +1,5 @@
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\HandlingExceptions\bin\Debug\HandlingExceptions.exe.config
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\HandlingExceptions\bin\Debug\HandlingExceptions.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\HandlingExceptions\bin\Debug\HandlingExceptions.pdb
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\HandlingExceptions\obj\Debug\HandlingExceptions.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\HandlingExceptions\obj\Debug\HandlingExceptions.pdb
