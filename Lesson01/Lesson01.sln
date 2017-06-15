@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "Recur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{BD76120F-2A52-4478-90BB-90693DC2A88F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trycatchfinally", "trycatchfinally\trycatchfinally.csproj", "{EC09F3E1-8665-4365-80A6-00CCF4EA4E0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BD76120F-2A52-4478-90BB-90693DC2A88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD76120F-2A52-4478-90BB-90693DC2A88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD76120F-2A52-4478-90BB-90693DC2A88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC09F3E1-8665-4365-80A6-00CCF4EA4E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC09F3E1-8665-4365-80A6-00CCF4EA4E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC09F3E1-8665-4365-80A6-00CCF4EA4E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC09F3E1-8665-4365-80A6-00CCF4EA4E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

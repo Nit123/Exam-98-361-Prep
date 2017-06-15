@@ -1,0 +1,5 @@
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\trycatchfinally\bin\Debug\trycatchfinally.exe.config
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\trycatchfinally\bin\Debug\trycatchfinally.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\trycatchfinally\bin\Debug\trycatchfinally.pdb
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\trycatchfinally\obj\Debug\trycatchfinally.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\trycatchfinally\obj\Debug\trycatchfinally.pdb
