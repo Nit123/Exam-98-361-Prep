@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC65F4EE-B9AD-4FA0-8D37-C34D12CCDA7E}</ProjectGuid>
+    <ProjectGuid>{1214663E-5ECB-435B-A92C-C2A51CC23160}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IntroducingCS</RootNamespace>
-    <AssemblyName>IntroducingCS</AssemblyName>
+    <RootNamespace>switch_Statement</RootNamespace>
+    <AssemblyName>switch_Statement</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

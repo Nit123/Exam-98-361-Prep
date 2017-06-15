@@ -1,5 +1,8 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ifelse_Statement
 {
@@ -10,8 +13,7 @@ namespace ifelse_Statement
             TestIfElse(10);
         }
 
-        public static void TestIfElse(int n)
-        {
+        public static void TestIfElse(int n) {
             if (n < 10)
                 Console.WriteLine("n is less than 10");
             else if (n < 20)
@@ -22,6 +24,4 @@ namespace ifelse_Statement
                 Console.WriteLine("n is greater than or equal to 30");
         }
     }
-
-  
 }

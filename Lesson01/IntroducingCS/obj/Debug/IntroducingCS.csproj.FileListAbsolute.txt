@@ -1,6 +1,6 @@
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.csprojResolveAssemblyReference.cache
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.exe.config
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.exe
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.pdb
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.exe
-C:\Nithu\CSharpFiles\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.pdb
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.exe.config
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.exe
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\bin\Debug\IntroducingCS.pdb
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.csprojResolveAssemblyReference.cache
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.exe
+c:\users\developer\documents\visual studio 2017\Projects\Lesson01\IntroducingCS\obj\Debug\IntroducingCS.pdb
