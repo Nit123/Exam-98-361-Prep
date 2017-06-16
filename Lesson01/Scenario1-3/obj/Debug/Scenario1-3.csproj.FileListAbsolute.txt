@@ -1,0 +1,5 @@
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\Scenario1-3\bin\Debug\Scenario1-3.exe.config
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\Scenario1-3\bin\Debug\Scenario1-3.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\Scenario1-3\bin\Debug\Scenario1-3.pdb
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\Scenario1-3\obj\Debug\Scenario1-3.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson01\Scenario1-3\obj\Debug\Scenario1-3.pdb
