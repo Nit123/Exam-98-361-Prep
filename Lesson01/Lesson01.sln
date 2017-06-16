@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trycatchfinally", "trycatch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario1-1", "Scenario1-1\Scenario1-1.csproj", "{4D6E8FDD-8025-444D-A912-89A358488113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario1-2", "Scenario1-2\Scenario1-2.csproj", "{5F1A877E-3974-4AD0-B090-3ED41580BCFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4D6E8FDD-8025-444D-A912-89A358488113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D6E8FDD-8025-444D-A912-89A358488113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D6E8FDD-8025-444D-A912-89A358488113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A877E-3974-4AD0-B090-3ED41580BCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A877E-3974-4AD0-B090-3ED41580BCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A877E-3974-4AD0-B090-3ED41580BCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A877E-3974-4AD0-B090-3ED41580BCFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
