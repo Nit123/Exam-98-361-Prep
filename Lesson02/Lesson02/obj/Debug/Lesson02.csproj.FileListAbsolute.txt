@@ -1,0 +1,6 @@
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\bin\Debug\Lesson02.exe.config
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\bin\Debug\Lesson02.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\bin\Debug\Lesson02.pdb
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\obj\Debug\Lesson02.csprojResolveAssemblyReference.cache
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\obj\Debug\Lesson02.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Lesson02\obj\Debug\Lesson02.pdb
