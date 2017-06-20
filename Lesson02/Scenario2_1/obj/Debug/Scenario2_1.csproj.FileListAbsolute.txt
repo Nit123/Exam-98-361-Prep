@@ -1,0 +1,6 @@
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\bin\Debug\Scenario2_1.exe.config
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\bin\Debug\Scenario2_1.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\bin\Debug\Scenario2_1.pdb
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\obj\Debug\Scenario2_1.csprojResolveAssemblyReference.cache
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\obj\Debug\Scenario2_1.exe
+C:\Nithu\CSharpFiles\Exam-98-361-Prep\Lesson02\Scenario2_1\obj\Debug\Scenario2_1.pdb
