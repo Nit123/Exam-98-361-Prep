@@ -9,9 +9,10 @@ namespace Scenario2_4
     class SampleClass : ISampleEvents
     {
         public event SampleDelegate SampleEvent;
+        public event EventHandler SampleEventHandler;
         public void Invoke()
         {
-            SampleEvent();
+            SampleEventHandler(this, EventArgs.Empty);
         }
 
     }
