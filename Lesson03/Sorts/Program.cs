@@ -64,5 +64,21 @@ namespace Sorts
 
             return newPivot;
         }
+
+        static int[] Quicksort(int[] numbers, int left, int right)
+        {
+            if(right > left)
+            {
+                int pivotIndex = left + (right - left) / 2;
+                //partition the array
+                pivotIndex = Partition(numbers, left, right, pivotIndex);
+                //sort left partition
+                Quicksort(numbers, left, pivotIndex);
+                //sort right partition
+                Quicksort(numbers, pivotIndex + 1, right);
+            }
+
+            return numbers;
+        }
     }
 }
