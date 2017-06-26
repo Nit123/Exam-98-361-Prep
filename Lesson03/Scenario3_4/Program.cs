@@ -22,7 +22,7 @@ namespace Scenario3_4
             LinkedListNode<String> afterPB_J = new LinkedListNode<String>("Packaged Meats");
             LinkedListNode<String> last = new LinkedListNode<String>("Bread");
 
-            int choice;
+            String choice;
             String item;
 
             productList.AddFirst("Soda");
@@ -49,9 +49,9 @@ namespace Scenario3_4
 
                 Console.WriteLine();
                 Console.WriteLine("Would you like to guess another item? (y/n)");
-                choice = Console.Read();
-                Console.WriteLine();
-            } while (choice == 'Y' || choice == 'y');
+                choice = Console.ReadLine();
+               Console.WriteLine();
+            } while (choice == "Y" || choice == "y");
 
             Console.WriteLine("End of program");
            
