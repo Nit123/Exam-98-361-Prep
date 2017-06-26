@@ -10,18 +10,19 @@ namespace Scenario3_2
     {
         static void Main(string[] args)
         {
-            Queue<int> que1 = new Queue<int>(10);
-            Queue<int> que2 = new Queue<int>(10);
+            int capacity = 10; //capacity of the queues
+            Queue<int> que1 = new Queue<int>(capacity);
+            Queue<int> que2 = new Queue<int>(capacity);
             int initalValue1 = 10;
             int initalValue2 = 5;
 
             //adding values to the queue
-            for(int i = initalValue1; i < (initalValue1 + 10); i++)
+            for(int i = initalValue1; i < (initalValue1 + capacity); i++)
             {
                 que1.Enqueue(i);
             }
 
-            for (int i = initalValue2; i < (initalValue2 + 10); i++)
+            for (int i = initalValue2; i < (initalValue2 + capacity); i++)
             {
                 que2.Enqueue(i);
             }
