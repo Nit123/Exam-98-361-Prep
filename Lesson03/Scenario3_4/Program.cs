@@ -25,16 +25,16 @@ namespace Scenario3_4
             int choice;
             String item;
 
-            productList.AddFirst(first);
-            productList.AddAfter(afterSoda, "Cereal");
-            productList.AddAfter(afterCereal, "Frozen Dinners");
-            productList.AddAfter(afterFrozenDinner, "Salty Snacks");
-            productList.AddAfter(afterSaltySnacks, "Milk");
-            productList.AddAfter(afterMilk, "Laundry Detergent");
-            productList.AddAfter(afterDetergent, "Eggs");
-            productList.AddAfter(afterEggs, "PB&J");
-            productList.AddAfter(afterPB_J, "Packaged Meats");
-            productList.AddLast(last);
+            productList.AddFirst("Soda");
+            productList.AddLast("Cereal");
+            productList.AddLast( "Frozen Dinners");
+            productList.AddLast("Salty Snacks");
+            productList.AddLast("Milk");
+            productList.AddLast("Laundry Detergent");
+            productList.AddLast("Eggs");
+            productList.AddLast("PB&J");
+            productList.AddLast("Packaged Meats");
+            productList.AddLast("Bread");
 
             do
             {
