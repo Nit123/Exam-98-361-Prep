@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageEvents", "PageEvents\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingSessionState", "UsingSessionState\UsingSessionState.csproj", "{E30AE76F-9082-4152-9C88-D0E17D1D14EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWebService", "TextWebService\TextWebService.csproj", "{28C65C46-5F94-4B52-8D93-2C71E35E97A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E30AE76F-9082-4152-9C88-D0E17D1D14EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E30AE76F-9082-4152-9C88-D0E17D1D14EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E30AE76F-9082-4152-9C88-D0E17D1D14EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C65C46-5F94-4B52-8D93-2C71E35E97A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C65C46-5F94-4B52-8D93-2C71E35E97A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C65C46-5F94-4B52-8D93-2C71E35E97A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C65C46-5F94-4B52-8D93-2C71E35E97A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
