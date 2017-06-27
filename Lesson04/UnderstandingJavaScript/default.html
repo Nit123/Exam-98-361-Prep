@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC
+          "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Understanding JavaScript</title>
+    <script type="text/javascript" language="javascript">
+
+        username = prompt("Please enter your name");
+        message = "Hello, " + username + ". Your name has";
+        nameLen = username.length;
+
+        if (nameLen > 5)
+            message = message + " more than ";
+        else if (nameLen < 5)
+            message = message + " less than ";
+        else
+            message = message + " exactly ";
+
+        message = message + "5 characters.";
+        alert(message);
+    </script>
+</head>
+<body>
+</body>
+</html>
