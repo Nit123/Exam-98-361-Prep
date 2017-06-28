@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWebServiceClient", "Tex
 		{28C65C46-5F94-4B52-8D93-2C71E35E97A3} = {28C65C46-5F94-4B52-8D93-2C71E35E97A3}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_1", "Scenario4_1\Scenario4_1.csproj", "{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{D5A9DD48-25EF-474D-8F4E-B231168B73F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5A9DD48-25EF-474D-8F4E-B231168B73F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5A9DD48-25EF-474D-8F4E-B231168B73F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
