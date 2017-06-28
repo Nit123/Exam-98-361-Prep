@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWebServiceClient", "Tex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_1", "Scenario4_1\Scenario4_1.csproj", "{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_2", "Scenario4_2\Scenario4_2.csproj", "{B7AA83CF-F301-4CA3-BE86-EBC686AEC1AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E5D21A-43A2-4AE5-98E8-E6B93D687B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AA83CF-F301-4CA3-BE86-EBC686AEC1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AA83CF-F301-4CA3-BE86-EBC686AEC1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AA83CF-F301-4CA3-BE86-EBC686AEC1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AA83CF-F301-4CA3-BE86-EBC686AEC1AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
