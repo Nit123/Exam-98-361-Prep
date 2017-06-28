@@ -16,6 +16,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWebService", "TextWebService\TextWebService.csproj", "{28C65C46-5F94-4B52-8D93-2C71E35E97A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWebServiceClient", "TextWebServiceClient\TextWebServiceClient.csproj", "{D5A9DD48-25EF-474D-8F4E-B231168B73F1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28C65C46-5F94-4B52-8D93-2C71E35E97A3} = {28C65C46-5F94-4B52-8D93-2C71E35E97A3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
