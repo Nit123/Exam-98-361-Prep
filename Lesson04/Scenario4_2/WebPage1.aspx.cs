@@ -16,16 +16,18 @@ namespace Scenario4_2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            string name = "";
+            string email = "";
             if (TextBox1.Text.Any())
             {
-                Request.QueryString.["Name"] = TextBox1.Text;
+               name = TextBox1.Text;
             }
             if (TextBox2.Text.Any())
             {
-                Request.QueryString.Add = TextBox2.Text;
+                email = TextBox2.Text;
             }
 
-            Response.Redirect("WebPage2.aspx");
+            Response.Redirect("WebPage2.aspx?name=" + name + "&email=" + email);
         }
     }
 }

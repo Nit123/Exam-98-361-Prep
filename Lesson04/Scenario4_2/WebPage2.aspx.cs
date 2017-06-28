@@ -12,11 +12,11 @@ namespace Scenario4_2
        
         protected void Page_Load(object sender, EventArgs e)
         {
-            string name = Request.QueryString["Name"];
-            string email = Request.QueryString["Email"];
+            string name = Request.QueryString["name"];
+            string email = Request.QueryString["email"];
             Response.Write("<p>Thank you for confirming your information: </p> <br />");
-            Response.Write("<p>Name: <%= name %> </p> <br />");
-            Response.Write("<p>Email: <%= email %> </p> <br />");
+            Response.Write("<p>Name: " + name + "</p> <br />");
+            Response.Write("<p>Email: " + email + "</p> <br />");
         }
     }
 }
