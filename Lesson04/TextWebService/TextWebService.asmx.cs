@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Services;
+using System.Net.Http;
 
 namespace TextWebService
 {
@@ -27,5 +29,13 @@ namespace TextWebService
         {
             return inputString.ToLower();
         }
+
+        [WebMethod]
+        public async Task<string> ToLowerAsync(string inputString)
+        {
+            var client = new HttpClient();
+            var stringStuff = await client.GetStringAsync(inputString);
+
+            return stringStuff.ToLower();
     }
 }
