@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_2", "Scenario4_2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_3", "Scenario4_3\Scenario4_3.csproj", "{47995FF1-2120-4406-9CDB-4C8ECF0DDA04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_4", "Scenario4_4\Scenario4_4.csproj", "{4FD14590-0F80-4660-A812-166B91F5FC1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4_4 WIP", "Scenario4_4\Scenario4_4 WIP.csproj", "{4FD14590-0F80-4660-A812-166B91F5FC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
