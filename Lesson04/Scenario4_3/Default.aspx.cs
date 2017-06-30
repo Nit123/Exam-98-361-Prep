@@ -17,7 +17,7 @@ namespace Scenario4_3
         protected void Button1_Click(object sender, EventArgs e)
         {
             var webService = new textWebService.TextWebServiceSoapClient();
-            toLowerLabel.Text = webService.ToLowerAsync(TextBox1.Text).ToString();
+           // toLowerLabel.Text = webService.ToLowerAsync(TextBox1.Text).ToString().ToLower();
             toUpperLabel.Text = webService.ToUpper(TextBox1.Text);
         }
     }

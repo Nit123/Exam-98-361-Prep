@@ -30,12 +30,12 @@ namespace TextWebService
             return inputString.ToLower();
         }
 
-        [WebMethod]
+     /*   [WebMethod]
         public async Task<string> ToLowerAsync(string inputString)
         {
             var client = new HttpClient();
             var stringStuff = await client.GetStringAsync(inputString);
 
             return stringStuff.ToLower();
-    }
+    } */
 }
