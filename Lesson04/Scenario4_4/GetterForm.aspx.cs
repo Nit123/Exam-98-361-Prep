@@ -11,7 +11,15 @@ namespace Scenario4_4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Name"] != null && Session["Email"] != null)
+                Response.Redirect("SubmittedForm.aspx");
+        }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session.Add("Name", TextBox1.Text);
+            Session.Add("Email", TextBox2.Text);
+            Response.Redirect("SubmittedForm.aspx");
         }
     }
 }
