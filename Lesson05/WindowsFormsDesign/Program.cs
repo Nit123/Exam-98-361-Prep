@@ -16,7 +16,7 @@ namespace WindowsFormsDesign
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InheritedForm());
+            Application.Run(new Scenario5_1());
         }
     }
 }
