@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstService", "FirstServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario5_2", "Scenario5_2\Scenario5_2.csproj", "{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario5_3", "Scenario5_3\Scenario5_3.csproj", "{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
