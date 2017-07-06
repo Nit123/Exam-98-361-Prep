@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryCS", "QueryCS\QueryCS.csproj", "{0BFCDF39-DF37-4537-A803-DB8D2598329D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizedSP", "ParameterizedSP\ParameterizedSP.csproj", "{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0BFCDF39-DF37-4537-A803-DB8D2598329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFCDF39-DF37-4537-A803-DB8D2598329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFCDF39-DF37-4537-A803-DB8D2598329D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
