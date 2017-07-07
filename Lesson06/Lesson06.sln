@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryCS", "QueryCS\QueryCS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizedSP", "ParameterizedSP\ParameterizedSP.csproj", "{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTextFiles", "WorkingWithTextFiles\WorkingWithTextFiles.csproj", "{2E35F4A5-29DD-4B0B-98FB-09F442492ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74FF5DB-C4B1-4AA8-8BDC-7892CBF13FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E35F4A5-29DD-4B0B-98FB-09F442492ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E35F4A5-29DD-4B0B-98FB-09F442492ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E35F4A5-29DD-4B0B-98FB-09F442492ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E35F4A5-29DD-4B0B-98FB-09F442492ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
