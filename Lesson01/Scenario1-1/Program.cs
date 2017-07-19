@@ -10,23 +10,54 @@ namespace Scenario1_1
     {
         static void Main(string[] args)
         {
-            int discount = discountCalc(50);
-            Console.WriteLine(discount + "%");
+            int quant;
+            while (true)
+            {
+                Console.WriteLine("How much of the product did you buy?");
+                try
+                {
+                    quant = Int32.Parse(Console.ReadLine());
+                    if (quant <= 0)
+                        throw new Exception("Quantity must be larger than 0 and smaller than 100.");
+                    Console.WriteLine();
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("You did not enter valid whole number.");
+                    Console.WriteLine();
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("Your number is too big. Try again");
+                    Console.WriteLine();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine();
+                } 
+            }
+
+            int discount = discountCalc(quant);
+            Console.WriteLine("You get a discount of {0} percent.", discount);
+            
+            
         }
 
         public static int discountCalc(int quantity) {
             int discountPercent;
-            if (quantity < 10 && quantity > 0)
+            if (quantity < 10)
                 discountPercent = 5;
-            else if (quantity < 50 && quantity > 0)
+            else if (quantity < 50)
                 discountPercent = 10;
-            else if (quantity < 100 && quantity > 0)
+            else if (quantity < 100)
                 discountPercent = 15;
-            else if (quantity > 100 && quantity > 0)
+            else if (quantity >= 100)
                 discountPercent = 20;
             else {
                 Console.WriteLine("Cannot compute discount.");
-                discountPercent = 0;
+                discountPercent = -1;
             }
 
             return discountPercent;
