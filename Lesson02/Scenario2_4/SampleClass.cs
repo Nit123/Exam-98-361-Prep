@@ -8,11 +8,10 @@ namespace Scenario2_4
 {
     class SampleClass : ISampleEvents
     {
-        public event SampleDelegate SampleEvent;
-        public event EventHandler SampleEventHandler;
+        public event SampleDelegate SampleEvent; //this is the event
         public void Invoke()
         {
-            SampleEventHandler(this, EventArgs.Empty);
+            SampleEvent(this, EventArgs.Empty);
         }
 
     }
