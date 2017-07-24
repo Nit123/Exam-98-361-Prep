@@ -17,7 +17,7 @@ namespace Scenario2_1
             }
             set
             {
-                if (value == "")
+                if (value == String.Empty)
                 {
                     Console.WriteLine("Cannot make Name empty. Making Name blank...");
                     name = " ";
