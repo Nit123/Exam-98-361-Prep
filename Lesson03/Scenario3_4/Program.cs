@@ -10,35 +10,26 @@ namespace Scenario3_4
     {
         static void Main(string[] args)
         {
-            LinkedList<String> productList = new LinkedList<String>();
-            LinkedListNode<String> first = new LinkedListNode<String>("Soda");
-            LinkedListNode<String> afterSoda = new LinkedListNode<String>("Cereal");
-            LinkedListNode<String> afterCereal = new LinkedListNode<String>("Frozen Dinners");
-            LinkedListNode<String> afterFrozenDinner = new LinkedListNode<String>("Salty Snacks");
-            LinkedListNode<String> afterSaltySnacks = new LinkedListNode<String>("Milk");
-            LinkedListNode<String> afterMilk = new LinkedListNode<String>("Laundry Detergent");
-            LinkedListNode<String> afterDetergent = new LinkedListNode<String>("Eggs");
-            LinkedListNode<String> afterEggs = new LinkedListNode<String>("PB&J");
-            LinkedListNode<String> afterPB_J = new LinkedListNode<String>("Packaged Meats");
-            LinkedListNode<String> last = new LinkedListNode<String>("Bread");
+            LinkedList<string> productList = new LinkedList<string>();
+            LinkedListNode<string> soda = productList.AddFirst("Soda");
+            LinkedListNode<string> bread = productList.AddLast("Bread");
+            LinkedListNode<string> cereal = productList.AddAfter(soda, "Cereal");
+            LinkedListNode<string> frozenDinner = productList.AddAfter(cereal, "Frozen Dinners");
+            LinkedListNode<string> saltySnack = productList.AddAfter(frozenDinner, "Salty Snacks");
+            LinkedListNode<string> milk = productList.AddAfter(saltySnack, "Milk");
+            LinkedListNode<string> detergent = productList.AddAfter(milk, "Laundry Detergent");
+            LinkedListNode<string> eggs = productList.AddAfter(milk, "Eggs");
+            LinkedListNode<string> _PBJ = productList.AddAfter(eggs, "PB&J");
+            LinkedListNode<string> meat = productList.AddBefore(bread, "Packaged meats");
 
-            String choice;
-            String item;
 
-            productList.AddFirst("Soda");
-            productList.AddLast("Cereal");
-            productList.AddLast( "Frozen Dinners");
-            productList.AddLast("Salty Snacks");
-            productList.AddLast("Milk");
-            productList.AddLast("Laundry Detergent");
-            productList.AddLast("Eggs");
-            productList.AddLast("PB&J");
-            productList.AddLast("Packaged Meats");
-            productList.AddLast("Bread");
+            string choice;
+            string item;
 
+        
             do
             {
-                Console.WriteLine("What food item do you think is in the Top 10 Groceries bought by Americans?");
+                Console.WriteLine("What food item do you think is in the Top 10 Groceries bought by Americans? (be specific)");
                 item = Console.ReadLine();
                 Console.WriteLine();
 

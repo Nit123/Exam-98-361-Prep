@@ -11,7 +11,7 @@ namespace Scenario3_1
         static void Main(string[] args)
         {
             int[][] numbers = new int[4][];
-            int value = 10;
+            int value = 10; //lowest value
             int largest;
 
             //initializing array
