@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayFile", "DisplayFile\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstService", "FirstService\FirstService.csproj", "{2EBBC891-6868-4085-927C-EAEE660A8DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario5_2", "Scenario5_2\Scenario5_2.csproj", "{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario5_2_WIP", "Scenario5_2\Scenario5_2_WIP.csproj", "{FA20B12B-3F07-4DE2-AF1B-A32E2D75623A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario5_3", "Scenario5_3\Scenario5_3.csproj", "{B63FDBCB-FA20-4AEB-9884-ECD6CE9374F9}"
 EndProject
